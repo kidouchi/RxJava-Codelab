@@ -10,6 +10,7 @@ import java.io.IOException;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class SetupTest {
+
   @Test
   public void everythingSetUp() throws IOException {
     RequestInfo requestInfo = HttpModule.httpBinApi()
